@@ -5,7 +5,6 @@ function HomePage() {
     const featuredEvents = getFeaturedEvents();
     return (
         <div>
-            <h1>Featured Events (The Home Page)</h1>
             <EventList items={featuredEvents} />
         </div>
     )
